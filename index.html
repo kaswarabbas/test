@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grand IVA Hotel - Digital Newspaper Portal</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 10px #ccc;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.logo img{
+    width:220px;
+    height:auto;
+}
+
+h1{
+    text-align:center;
+    color:#0b4f6c;
+    margin-bottom:5px;
+}
+
+h2{
+    text-align:center;
+    color:#666;
+    margin-top:0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:18px;
+    margin-top:30px;
+}
+
+a.card{
+    display:block;
+    text-decoration:none;
+    background:#0b4f6c;
+    color:#fff;
+    padding:24px;
+    border-radius:10px;
+    text-align:center;
+    font-size:20px;
+    transition:.3s;
+}
+
+a.card:hover{
+    background:#117399;
+    transform:translateY(-3px);
+}
+
+.footer{
+    text-align:center;
+    margin-top:35px;
+    color:#666;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <img src="logo.png" alt="Grand IVA Hotel Logo">
+    </div>
+
+    <h1>Digital Newspaper Portal</h1>
+
+    <h2>
+        بوابة الصحف الرقمية
+    </h2>
+
+    <p style="text-align:center">
+        Select a newspaper below / اختر الصحيفة
+    </p>
+
+    <div class="grid">
+
+        <a class="card" href="https://www.okaz.com.sa" target="_blank">
+            📰<br>
+            <strong>Okaz</strong><br>
+            عكاظ
+        </a>
+
+        <a class="card" href="https://www.alriyadh.com" target="_blank">
+            📰<br>
+            <strong>Al Riyadh</strong><br>
+            الرياض
+        </a>
+
+        <a class="card" href="https://aawsat.com" target="_blank">
+            📰<br>
+            <strong>Asharq Al-Awsat</strong><br>
+            الشرق الأوسط
+        </a>
+
+        <a class="card" href="https://www.alwatan.com.sa" target="_blank">
+            📰<br>
+            <strong>Al Watan</strong><br>
+            الوطن
+        </a>
+
+    </div>
+
+    <div class="footer">
+        Welcome to Grand IVA Hotel Abha
+    </div>
+
+</div>
+
+</body>
+</html>
